@@ -1,0 +1,624 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; background-repeat: no-repeat; }
+
+* {
+	font-family: "Museo 300";
+	-webkit-font-smoothing: antialiased;
+	font-size: 15px;
+	font-smooth: antialiased;
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+	overflow: visible;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	width: 100%;
+    min-width: 940px;
+}
+
+div.hero-bg {
+	height: 900px;
+}
+
+div.hero-bg:before {
+  content: '';
+  position: absolute;
+  background: url('img/hero-background.jpg') repeat-x center top;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 550px;
+  z-index: -1;
+}
+
+div.hero-bg.mini:before {
+  height: 80px;
+}
+
+div.hero-bg.mini {
+	height: 100px;
+	margin-bottom: 40px;
+}
+
+section {
+	width: 940px;
+	margin: 0 auto;
+}
+
+strong {
+    color: inherit;
+}
+
+a {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+header, nav, article, footer, address, section {
+    display: block;
+}
+
+hr {
+	height: 1px;
+	width: 100%;
+	background-color: #ededed;
+	margin: 50px 0;
+}
+
+div#menu {
+	width: 940px;
+	padding-top: 30px;
+	text-align: right;
+	margin: 0 auto;
+}
+
+div#menu a {
+	color: #99FF33;
+	opacity: 1;
+	font-size: 16px;
+	font-family: "Museo 700";
+	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+	margin-left: 60px;
+}
+
+div#menu a:hover, div#menu a.wishlist:hover {
+	opacity: 1;
+}
+
+div#menu a#logo {
+	float: left;
+	font-size: 24px;
+	opacity: 1;
+	margin-top: -7px;
+	padding-left: 48px;
+	background-image: url('img/hero-background.jpg');
+	background-size: 37px 34px;
+	height: 37px;
+	padding-top: 1px;
+	margin-left: 0;
+}
+
+div#menu.regions a.regions, div#menu.wishlist a.wishlist {
+	opacity: 1;
+}  
+
+#hero-shot {
+	width: 700px;
+	margin: 60px auto 0 auto;
+	display: block;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 32px;
+	margin-bottom: 10px;
+	font-family: "Museo 500";
+}
+
+h2 {
+	width: 740px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Museo 300";
+	font-size: 20px;
+	line-height: 1.6em;
+}
+
+#app-stores-top {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+a#app-store-top {
+    background-size: 100%;
+    width: 197px;
+    height: 56px;
+    display: inline-block;
+}
+
+a#google-play-top {
+    margin-left: 40px;
+    background-size: 100%;
+    width: 164px;
+    height: 56px;
+    display: inline-block;
+}
+
+.en a#app-store-top { background-image: url('/img/app-store-en.png') }
+.en a#google-play-top { background-image: url('/img/google-play-en.png') }
+
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin: 50px 0;
+}
+
+
+
+#features table {
+	margin-bottom: 50px;
+	margin-left: -14px;
+
+}
+
+
+#features table td {
+	text-align: center;
+	padding: 0 20px;
+	width: 33%;
+}
+
+#features table td img {
+	width: 280px;
+}
+
+#features table td p.feature-title {
+	font-size: 24px;
+	font-family: "Museo 500";
+	margin-bottom: 10px;
+	margin-top: -20px;
+}
+
+#features table td p.feature-description {
+	font-size: 17px;
+	font-family: "Museo 300";
+}
+
+div.review-stars {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto 10px auto;
+}
+
+div.star {
+	background: url('img/star.png') no-repeat;
+	background-size: 100%;
+	width: 29px;
+	height: 27px;
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.review-content {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	font-family: "Museo 300";
+}
+
+#footer-menu {
+	text-align: center;
+	font-size: 16px;
+}
+
+#footer-menu .link {
+	margin: 0 40px;
+	font-family: "Museo 700";
+}
+
+#footer-menu .link a {
+	font-family: "Museo 300";
+}
+
+#footer-menu a#twitter, #footer-menu a#facebook {
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+#footer-menu a#twitter {
+    background-image: url('img/twitter.png');
+}
+
+#footer-menu a#facebook {
+    background-image: url('img/facebook.png');
+}
+
+#footer {
+	text-align: center;
+}
+
+#share {
+    display: inline-block;
+	position: relative;
+	width: 198px;
+	color: #999;
+	margin-bottom: 70px;
+}
+
+	#share iframe#facebook {
+		overflow: hidden;
+		left: 0;
+	}
+
+	#share iframe {
+		position: absolute;
+		top: -2px;
+		left: 110px;
+	}
+
+#quote {
+	text-align: center;
+	width: 650px;
+	margin: 0 auto 10px auto;
+	font-size: 22px;
+	font-family: "Museo 500";
+}
+
+#gustavo {
+	text-align: center;
+	width: 650px;
+	margin: 0 auto;
+	font-size: 16px;
+	margin-bottom: 40px;
+	color: #838383;
+}
+
+#world-map {
+    width: 940px;
+    height: 500px;
+    margin: 40px auto 60px auto;
+}
+
+.jvectormap-label {
+    position: absolute;
+    display: none;
+    border: solid 1px #CDCDCD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #292929;
+    color: white;
+    font-family: sans-serif, Verdana;
+    font-size: smaller;
+    padding: 3px;
+}
+
+circle {
+  visibility: hidden;
+}
+
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+  position: absolute;
+  left: 10px;
+
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+  line-height: 30px;
+
+  background: #e1e1e1;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.jvectormap-zoomin {
+    top: 10px;
+
+    border-radius: 5px 5px 0 0;
+}
+
+.jvectormap-zoomout {
+    top: 30px;
+
+    border-radius: 0 0 5px 5px;
+}
+
+.tooltip {
+  visibility: hidden;
+
+  position: absolute;
+  z-index: 200;
+
+  max-width: 400px;
+
+  background: white;
+  padding: 8px 13px;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tooltip:before {
+  content: '';
+
+  width: 0;
+  height: 0;
+
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+
+  border: 13px solid red;
+  border-width: 13px 11px;
+  border-color: white transparent transparent transparent;
+
+  margin-left: -14px;
+  z-index: 10;
+}
+
+.tooltip:after {
+  content: '';
+
+  width: 0;
+  height: 0;
+
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+
+  border: 14px solid red;
+  border-width: 13px 11px;
+  border-color: rgba(0, 0, 0, 0.2) transparent transparent transparent;
+
+  margin-left: -14px;
+  z-index: 9;
+}
+
+.tooltip h1 {
+  color: #333;
+
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+
+  text-align: left;
+}
+
+.tooltip h2 {
+  width: auto;
+
+  color: #a1a1a1;
+
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.3em;
+
+  text-align: left;
+}
+
+.tooltip p {
+  font-size: 14px;
+
+  font-weight: bold;
+}
+
+.tooltip small {
+  font-size: 12px;
+    line-height: 1.3em;
+  font-weight: normal;
+}
+
+.region-coverage {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#cities .region-coverage {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.actions input[type="email"] {
+  color: #333333;
+}
+
+.actions form {
+  display: none;
+}
+
+form input,
+.coverage,
+.full-list,
+.big-button {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+
+  padding: 6px 14px;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-family: "Museo 500";
+}
+
+form input[type="submit"] {
+  margin-left: 0;
+  cursor: pointer;
+}
+
+form input[type="submit"],
+.coverage,
+.green {
+  background: #00ad35;
+}
+
+.coverage.error {
+  background: #ad0035;
+}
+
+.full-list {
+  background: #c1c1c1;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	div#menu a#logo { background-image: url('img/header-logo@2x.png'); }
+    div.star { background-image: url('img/star.png') }
+    .en a#app-store-top { background-image: url('img/app-store-en@2x.png') }
+    .en a#google-play-top { background-image: url('img/google-play-en@2x.png') }
+    #footer-menu a#twitter { background-image: url('img/twitter.png') }
+    #footer-menu a#facebook { background-image: url('img/facebook.png') }
+}
+
+/* CITIES */
+
+#cities h4 {
+    font-weight: bold;
+}
+
+#cities h5 {
+    margin-bottom: 10px;
+}
+
+#cities #coverage {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#cities #signup {
+    margin-bottom: 50px;
+    overflow: hidden;
+    display: none;
+}
+
+#signup-form {
+    float: right;
+}
+
+
+
+
+
+
+table.grid {
+    width: 100%;
+    margin-top: 50px;
+}
+
+table.grid td, table.grid th {
+    padding: 5px 8px;
+}
+
+table td, table th {
+    line-height: 26px;
+}
+
+table.grid td p {
+    line-height: 26px;
+    width: auto;
+    margin: 0;
+}
+
+table.grid tr td  {
+    border-top: 1px solid #ebebeb;
+}
+
+table.grid *:not(:last-child) {
+    border-right: 1px solid #ebebeb;
+}
+
+
+table.grid th, table.grid td.header {
+    font-weight: bold;
+    text-align: left;
+}
+
+
+#cities table {
+    margin: 20px 0 40px 0;
+}
+
+#cities table a {
+    display: block;
+}
+
+#cities table span {
+	color: #6e6e6e;
+}
+
+#cities table td {
+	    text-align: left;
+
+}
+
+#cities table tr.supported-city:hover {
+    background-color: #fbfbfb;
+}
+
+#cities table tr.supported-city.highlighted {
+    background-color: #FAFFBD;
+}
+
+#cities table tr td:first-child {
+    font-weight: normal;
+    font-family: "Museo 500";
+    width: 220px;
+    box-sizing: border-box;
+}
+
+#cities table tr td .real-time-indicator {
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+#cities table tr td p.small-agencies {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.has-real-time {
+    font-family: "Museo 500";
+    text-decoration: none;
+    font-weight: normal;
+    background-color: #fffea5;
+    border: 0;
+}
+
+#cities p {
+    line-height: 26px;
+}
+
+#cities #legend {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+
+#cities h4 {
+  width: auto;
+}

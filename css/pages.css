@@ -1,0 +1,927 @@
+p a, li a, td a {
+    border-bottom: 1px dotted #009812;
+    color: #009812;
+}
+
+sup {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+section {
+  width: 940px;
+}
+
+div#menu {
+  width: 940px;
+}
+
+/* CITIES */
+
+#cities h4 {
+    font-weight: bold;
+}
+
+#cities h5 {
+    margin-bottom: 10px;
+}
+
+#cities #coverage {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#cities #signup {
+    margin-bottom: 50px;
+    overflow: hidden;
+    display: none;
+}
+
+#signup-form {
+    float: right;
+}
+
+
+
+
+
+
+table.grid {
+    width: 940px;
+    margin-top: 50px;
+}
+
+table.grid td, table.grid th {
+    padding: 5px 8px;
+}
+
+table td, table th {
+    line-height: 26px;
+}
+
+table.grid td p {
+    line-height: 26px;
+    width: auto;
+    margin: 0;
+}
+
+table.grid tr td  {
+    border-top: 1px solid #ebebeb;
+}
+
+table.grid *:not(:last-child) {
+    border-right: 1px solid #ebebeb;
+}
+
+
+table.grid th, table.grid td.header {
+    font-weight: bold;
+    text-align: left;
+}
+
+
+#cities table {
+    margin: 20px 0 40px 0;
+}
+
+#cities table a {
+    display: block;
+}
+
+#cities table span {
+  color: #6e6e6e;
+}
+
+#cities table td {
+      text-align: left;
+
+}
+
+#cities table tr.supported-city:hover {
+    background-color: #fbfbfb;
+}
+
+#cities table tr.supported-city.highlighted {
+    background-color: #FAFFBD;
+}
+
+#cities table tr td:first-child {
+  font-weight: normal;
+    font-family: "Museo 500";
+}
+
+#cities table tr td .real-time-indicator {
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+#cities table tr td p.small-agencies {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.has-real-time {
+    font-family: "Museo 500";
+    text-decoration: none;
+    font-weight: normal;
+    background-color: #fffea5;
+    border: 0;
+}
+
+#cities p {
+    line-height: 26px;
+}
+
+#cities #legend {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+
+p {
+  margin: 10px 0 20px 0;
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 40px;
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px auto 10px auto;
+  color: #000;
+  width: 600px;
+  font-family: "Museo 700";
+}
+
+
+h3 {
+  font-family: "Museo 700";
+  font-size: 22px;
+  margin: 40px 0 6px 0;
+  text-align: left;
+}
+
+h3.quote {
+    font-family: "Museo 300";
+
+}
+
+h4 {
+  font-family: "Museo 500";
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  width: 730px;
+  margin: 0 auto;
+}
+
+#jobs h4 {
+  margin: 0;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #ededed;
+  margin: 40px 0;
+}
+
+#cities p.page-intro {
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+#cities p.intro {
+    line-height: 26px;
+}
+
+ul {
+    list-style: circle;
+    font-size: inherit;
+}
+
+li {
+    padding: 0 0 0 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+}
+
+table.form td {
+  padding: 14px 0 14px 6px;
+  vertical-align: middle;
+}
+
+table.list td {
+  padding: 10px 0 8px 8px;
+}
+
+table.list tr:not(:first-child):hover {
+  background-color: #fbfbfb;
+}
+
+table.list tr:not(:first-child) td:nth-child(2):hover {
+  color: #009812;
+  cursor: pointer;
+}
+
+#cities .upvote {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Museo 500";
+  border: 0;
+  color: #000;
+  padding-top: 3px;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0 -8px;
+}
+
+#cities .upvote::before {
+  content: "";
+  background-image: url('/img/upvote.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 11px;
+  height: 7px;
+}
+
+#cities tr:not(.supported) .upvote:hover, #cities tr:not(.supported) .upvoted {
+  color: #FE7A15;
+}
+
+#cities tr:not(.supported) .upvote:hover::before,  .upvoted::before {
+  background-position: 0 -7px;
+}
+
+#cities tr.supported {
+	display: none;
+}
+
+#cities tr.supported td {
+	position:relative;
+	background-color: #fbfbfb;
+	color: #838383;
+	cursor: default;
+}
+
+#cities tr td a {
+	text-decoration: none;
+	color: #000;
+	border: 0;
+}
+
+#cities tr.supported .upvote {
+	opacity: 0.4;
+	cursor: default;
+}
+
+#cities span.badge {
+  background-color: #009812;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 5px 8px 4px 8px;
+  margin-right: 4px;
+  font-family: "Museo 500";
+}
+
+#cities span.badge.red {
+  background-color: #cb0b0b;
+}
+
+#cities span.badge.gray {
+  background-color: #aaaaaa;
+}
+
+#cities span.badge.green {
+  background-color: #009812;
+}
+
+#cities span.badge.yellow {
+  background-color: #e2af21;
+}
+
+#cities table.list tr td:first-child {
+  width: 50px;
+  position: relative;
+  cursor: default;
+}
+
+#cities table.list tr td:last-child {
+  cursor: default;
+}
+
+#cities table.list tr td:nth-child(2) {
+  width: 430px;
+}
+
+#cities table.form tr td:first-child {
+  width: 250px;
+}
+
+.pac-item {
+	padding: 6px 6px 5px 6px;
+	border: 0;
+}
+
+.pac-icon {
+	margin: 0 6px 0 0;
+}
+
+input[type=text],
+input[type=url],
+input[type=email],
+textarea {
+  margin-right: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  font-size: 15px;
+  padding: 8px 0 6px 8px;
+  outline: none;
+  -webkit-background-clip: padding-box;
+  color: #000;
+  display: inline-block;
+  display: block;
+  margin-left: 6px;
+  font-family: "Museo 500";
+
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  -webkit-transition: border-color linear .2s, box-shadow linear .2s;
+  -moz-transition: border-color linear .2s, box-shadow linear .2s;
+  -o-transition: border-color linear .2s, box-shadow linear .2s;
+  transition: border-color linear .2s, box-shadow linear .2s;
+}
+
+
+form input[type=radio] {
+  margin: 0 6px 0 10px;
+}
+
+form textarea {
+  width: 95%;
+  padding-top: 6px;
+}
+
+input[type=text]:focus,
+input[type=url]:focus,
+input[type=email]:focus,
+textarea:focus {
+  box-shadow: 0 0 2px rgba(0,173,53,0.5), inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 0 2px rgba(0,173,53,0.5), inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 0 2px rgba(0,173,53,0.5), inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  border-color: #009812;
+}
+
+input#search {
+	background: url('/img/search-icon@2x.png') no-repeat 5px center;
+	background-size: 25px 25px;
+	padding-left: 34px;
+	width: 400px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin: 0 auto 40px auto;
+}
+
+input[type=submit] {
+  margin: 0 auto;
+  display: block;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons input[type=submit] {
+	display: inline-block;
+}
+
+div.agency-header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+div.agency-header div.share {
+	float: right;
+	color: #999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 198px;
+	height: 40px;
+	margin-top: 40px;
+}
+
+	div.share iframe {
+		position: absolute;
+		left: 110px;
+		top: 0;
+	}
+
+	div.share .fb-share-button {
+		left: -110px;
+		top: -2px;
+	}
+
+hr.small {
+  margin: 10px 0 15px 0;
+}
+
+#cities .agency-vote {
+  width: 60px;
+  height: 70px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Museo 300";
+  color: #000;
+  padding-top: 18px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  z-index: 90;
+  position: relative;
+}
+
+#cities .agency-vote::before {
+  content: "";
+  background-image: url('/img/upvote-big.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  margin: 0 auto 4px auto;
+  width: 26px;
+  height: 16px;
+}
+
+#cities .agency-vote:hover, #cities .agency-vote.upvoted {
+  color: #FE7A15;
+}
+
+#cities .agency-vote.upvoted::before, #cities .agency-vote:hover::before {
+  background-position: 0 -16px;
+}
+
+#cities p.agency-name {
+	font-size: 40px;
+	font-family: "Museo 700";
+	line-height: 1.1em;
+	margin: 0 0 4px 0;
+}
+
+#cities p.agency-location {
+	font-size: 22px;
+	margin: 0;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cities .upvote::before { background-image: url('/img/upvote@2x.png'); }
+  #cities .agency-vote::before { background-image: url('/img/upvote-big@2x.png'); }
+}
+
+.overlay.white {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	background-color: rgba(255, 255, 255, .5);
+	display: none;
+}
+
+.overlay.white section {
+	width: 500px;
+	margin: 0 auto;
+	top: 40%;
+	position: relative;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	border: 6px solid rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	text-align: center;
+}
+
+.overlay.white section form {
+	text-align: center;
+	margin: 10px 0 20px 0;
+}
+
+.overlay.white section input[type=email] {
+	display: inline-block;
+}
+
+.overlay.white section input[type=submit] {
+	margin: 0 0 0 0;
+	display: inline-block;
+}
+
+
+
+/*About page*/
+
+header {
+  background: #398f39 url('/img/about/hero.jpg') no-repeat top center;
+  background-size: 100%;
+  height: 280px;
+  text-shadow: 0 0 2px #000;
+  padding: 0 0 100px 0;
+  margin: 0 0 30px 0;
+}
+
+header.about menu {
+
+}
+
+header img {
+  width: 80px;
+  height: 75px;
+  margin: 60px auto 0 auto;
+  display: block;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 50px;
+  color: #FFF;
+}
+
+header p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 10px auto 0 auto;
+  color: #FFF;
+  width: 600px;
+}
+
+#team {
+  text-align: center;
+}
+
+#mission {
+  text-align: center;
+}
+
+#mission p {
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.member {
+  text-align: center;
+  margin: 40px 26px 0 26px;
+  display: inline-block;
+}
+
+.member img {
+  width: 176px;
+  height: 176px;
+}
+
+.face {
+  width: 176px;
+  height: 176px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.face:hover {
+  background-position: 100% 0;
+}
+
+.face#quan {
+  background-image: url('/img/about/quan@2x.jpg');
+}
+
+.face#anton {
+  background-image: url('/img/about/anton@2x.jpg');
+}
+
+.face#leo {
+  background-image: url('/img/about/leo@2x.jpg');
+}
+
+.face#mobilesam {
+  background-image: url('/img/about/mobilesam@2x.jpg');
+}
+
+.member p.name {
+  font-size: 20px;
+  font-family: "Museo 700";
+  margin: 12px 0 0 0;
+  line-height: 24px;
+}
+
+.member p.title {
+  margin: 0;
+  font-family: "Museo 300";
+  font-size: 14px;
+}
+
+table#timeline {
+  margin: 0 0 60px 60px;
+}
+
+table#timeline img.bus {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  z-index: 20;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes move {
+    0% { top: 70px; }
+    100% { top: 1000px; }
+}
+
+table#timeline a {
+  color: #000;
+}
+
+table#timeline tr td:first-child {
+  color: #838383;
+}
+
+table#timeline tr td:nth-child(3) {
+  padding-right: 60px;
+}
+
+td.timeline {
+  padding: 0;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
+div.timeline-bar {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  display: inline;
+  background-color: #0cae20;
+  z-index: 3;
+}
+
+div.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #0cae20;
+  border: solid 2px #FFF;
+  display: inline;
+  position: absolute;
+  margin-left: -6px;
+  margin-top: 40px;
+  z-index: 10;
+}
+
+div.timeline-dot.white {
+  background-color: #FFF;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-left: -10px;
+  border: none;
+}
+
+img.timeline-avatar {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin-left: -14px;
+  margin-top: 30px;
+  z-index: 12;
+}
+
+tr:first-child p.timeline-title {
+  font-size: 70px;
+  font-family: "Museo 100";
+  line-height: 80px;
+  margin: 40px 0 0 0;
+}
+
+tr:first-child p.timeline-subtitle {
+  font-size: 20px;
+  font-family: "Museo 100";
+  margin: 0 0 40px 0;
+}
+
+tr:first-child div.timeline-dot {
+  margin-top: 70px;
+}
+
+tr:first-child div.timeline-bar {
+  margin-top: 70px;
+}
+
+tr:last-child div.timeline-bar {
+  height: 54px;
+}
+
+p.timeline-title {
+  font-size: 20px;
+  font-family: "Museo 700";
+  margin: 30px 0 0 0;
+}
+
+p.timeline-employee {
+  font-size: 16px;
+  font-family: "Museo 700";
+  margin: 32px 0 0 0;
+}
+
+
+p.timeline-subtitle {
+  font-size: 16px;
+  font-family: "Museo 300";
+  margin: 0;
+}
+
+footer #map {
+  background: url('/img/about/map.jpg') no-repeat center;
+  background-size: auto 100%;
+  width: 100%;
+  height: 190px;
+  margin: 30px 0 20px 0;
+}
+
+#footer table#contact {
+  width: 100%;
+  text-align: left;
+  margin: 30px 0 50px 0;
+}
+
+#footer table#contact h4 {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  width: auto;
+}
+
+#footer table#contact td:nth-child(1) {
+  width: 35%
+}
+
+#footer table#contact td:nth-child(2) {
+  width: 30%
+}
+
+#footer table#contact td:nth-child(3) {
+  width: 28%
+}
+
+footer {
+  background: url('/img/about/montreal-footer.jpg') no-repeat bottom center;
+  background-size: 100%;
+  padding-bottom: 300px;
+}
+
+#footer {
+  padding: 0 0 40px 0;
+}
+
+#footer p a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+#social a#twitter, #social a#facebook {
+    height: 20px;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    padding: 0 0 0 30px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-decoration: none;
+    color: #000;
+    border: none;
+}
+
+#social a#twitter {
+    background-image: url('/img/twitter@2x.png');
+    margin-left: 0;
+}
+
+#social a#facebook {
+    background-image: url('/img/facebook@2x.png');
+}
+
+
+#investors {
+  text-align: center;
+}
+
+#investors img#real {
+  height: 35px;
+}
+
+#investors img#bdc {
+  height: 50px;
+  margin-right: 50px;
+}
+
+form[name="agency"] {
+  position: relative;
+}
+
+.city_supported {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 2em;
+}
+
+#cities .city_supported span.badge.green {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  height: 1.5em;
+  margin: -0.75em 0 0 0;
+  line-height: 1.5em;
+}
+
+section.blog {
+  width: 740px;
+}
+
+section.blog a {
+  font-size: inherit;
+}
+
+section.blog img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+section.blog p {
+  margin: 12px 0;
+}
+
+section.blog .post-title {
+  font-size: 32px;
+  margin-bottom: 0px;
+  font-family: "Museo 500";
+}
+
+section.blog a.post-title:hover {
+  text-decoration: underline;
+}
+
+section.blog .post-date {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-top: -4px;
+  font-family: "Museo 500";
+  color: #999;
+}
